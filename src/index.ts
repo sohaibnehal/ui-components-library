@@ -1,3 +1,4 @@
-import TestComponent from "./TestComponent";
+import MessageDialog from './MessageDialog';
+import ConfirmationDialog from './ConfirmationDialog';
 
-export { TestComponent };
+export { MessageDialog, ConfirmationDialog };

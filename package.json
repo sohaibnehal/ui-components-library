@@ -1,13 +1,13 @@
 {
-  "name": "react-component-library",
-  "version": "1.0.0",
+  "name": "streetlogix-ui-components-library",
+  "version": "0.0.1",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
     "build"
   ],
   "types": "build/index.d.ts",
-  "description": "A skeleton to create your own React component library using Rollup, TypeScript, Sass and Storybook",
+  "description": "A collection of UI components",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HarveyD/react-component-library.git"
+    "url": "git+https://github.com/sohaibnehal/ui-components-library.git"
   },
   "keywords": [
     "React",
@@ -30,12 +30,11 @@
     "Sass",
     "Storybook"
   ],
-  "author": "Harvey Delaney",
-  "license": "MIT",
+  "author": "Sohaib Nehal",
   "bugs": {
-    "url": "https://github.com/HarveyD/react-component-library/issues"
+    "url": "https://github.com/sohaibnehal/ui-components-library/issues"
   },
-  "homepage": "https://github.com/HarveyD/react-component-library#readme",
+  "homepage": "https://github.com/sohaibnehal/ui-components-library/issues#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
@@ -64,6 +63,8 @@
     "rollup-plugin-typescript2": "^0.29.0",
     "sass-loader": "^10.2.0",
     "ts-jest": "^26.5.6",
-    "typescript": "^4.4.2"
+    "typescript": "^4.4.2",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2"
   }
 }
